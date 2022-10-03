@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(63, 180, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#interface-card{
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 3em;
+    margin-top: 3em;
+    background-color: #bdb5a9;
+}
+
+#interface-card > h1{
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+form > label{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+form > input[type="text"]{
+    padding: 1em;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+#output{
+    text-align: center;
+    margin-top: .6em;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.operation-btn{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    place-content: center;
+}
+
+.operation-btn > button{
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+
